@@ -1,12 +1,12 @@
 ---
-id: analyzing-the-bundle-size
-title: Analyzing the Bundle Size
-sidebar_label: Analyzing Bundle Size
+id: WPF-ActivityLogger-Config
+title: Config
+sidebar_label: Config
 ---
 
-[Source map explorer](https://www.npmjs.com/package/source-map-explorer) analyzes
-JavaScript bundles using the source maps. This helps you understand where code
-bloat is coming from.
+[Source map explorer](https://www.npmjs.com/package/source-map-explorer)
+analyzes JavaScript bundles using the source maps. This helps you understand
+where code bloat is coming from.
 
 To add Source map explorer to a Create React App project, follow these steps:
 
@@ -30,8 +30,7 @@ Then in `package.json`, add the following line to `scripts`:
      "test": "react-scripts test",
 ```
 
-Then to analyze the bundle run the production build then run the analyze
-script.
+Then to analyze the bundle run the production build then run the analyze script.
 
 ```sh
 npm run build

@@ -6,6 +6,7 @@ const siteConfig = {
   projectName: "Rosemite-Docs",
   organizationName: "solomonrosemite",
   favicon: "img/favicon/favicon.ico",
+
   presets: [
     [
       "@docusaurus/preset-classic",
@@ -24,10 +25,6 @@ const siteConfig = {
   ],
   themeConfig: {
     image: "img/logo-og.png",
-    algolia: {
-      apiKey: "3be60f4f8ffc24c75da84857d6323791",
-      indexName: "rosemite docs",
-    },
     navbar: {
       title: "Rosemite Docs",
       logo: {
