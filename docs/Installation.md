@@ -3,91 +3,67 @@ id: WPF-ActivityLogger-Installation
 title: Installation
 ---
 
-Usually, in an app, you have a lot of UI components, and each of them has many
-different states. For an example, a basic button component could have the
-following states:
+## Desktop Installation
 
-- In a regular state, with a text label.
-- In the disabled mode.
-- In a loading state.
+#### Requirements
 
-Usually, it’s hard to see these states without running a sample app or some
-examples.
+- .Net Core 3.1 Desktop Runtime
 
-Create React App doesn’t include any tools for this by default, but you can add
-[Storybook for React](https://storybook.js.org)
-([source](https://github.com/storybooks/storybook)) or
-[React Styleguidist](https://react-styleguidist.js.org/)
-([source](https://github.com/styleguidist/react-styleguidist)) to your project.
-**These are third-party tools that let you develop components and see all their
-states in isolation from your app**.
+#### Installation
 
-![Storybook for React Demo](https://i.imgur.com/7CIAWpB.gif)
+- First make sure the modules are installed by running
 
-You can also deploy your Storybook or style guide as a static app. This way,
-everyone in your team can view and review different states of UI components
-without starting a backend server or creating an account in your app.
-
-## Getting Started with Storybook
-
-Storybook is a development environment for React UI components. It allows you to
-browse a component library, view the different states of each component, and
-interactively develop and test components.
-
-Run the following command inside your app’s directory:
-
-```sh
-npx -p @storybook/cli sb init
+```
+pip install -r requirements.txt
 ```
 
-After that, follow the instructions on the screen.
+- To start the Installer run the main.py
 
-Learn more about React Storybook:
-
-- [Learn Storybook (tutorial)](https://learnstorybook.com)
-- [Documentation](https://storybook.js.org/basics/introduction/)
-- [GitHub Repo](https://github.com/storybooks/storybook)
-- [Snapshot Testing UI](https://github.com/storybooks/storybook/tree/master/addons/storyshots)
-  with Storybook + addon/storyshot
-
-## Getting Started with Styleguidist
-
-Styleguidist combines a style guide, where all your components are presented on
-a single page with their props documentation and usage examples, with an
-environment for developing components in isolation, similar to Storybook. In
-Styleguidist you write examples in Markdown, where each code snippet is rendered
-as a live editable playground.
-
-First, install Styleguidist:
-
-```sh
-npm install --save react-styleguidist
+```
+python main.py
 ```
 
-Alternatively you may use `yarn`:
+- Locate the installation folder:
 
-```sh
-yarn add react-styleguidist
+```
+C:\Users\[Username]\TMRosemite\ActivityLogger
 ```
 
-Then, add these scripts to your `package.json`:
+- Start the "ActivityLogger.exe" and create a Shortcut of it and add it to the
+  startup folder.
 
-```diff
-   "scripts": {
-+    "styleguide": "styleguidist server",
-+    "styleguide:build": "styleguidist build",
-     "start": "react-scripts start",
+```
+C:\Users\[Username]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 ```
 
-Then, run the following command inside your app’s directory:
+- (Optional) Add a Shortcut to the desktop or any location of the
+  "MyActivities.exe" which can be found here:
 
-```sh
-npm run styleguide
+```
+C:\Users\[Username]\TMRosemite\ActivityLogger\MyActivityLogs
 ```
 
-After that, follow the instructions on the screen.
+Thats it! You can find the
+[Download here](https://github.com/SolomonRosemite/WPF-ActivityLogger/releases).
 
-Learn more about React Styleguidist:
+## Mobile Installation
 
-- [GitHub Repo](https://github.com/styleguidist/react-styleguidist)
-- [Documentation](https://react-styleguidist.js.org/docs/getting-started.html)
+To use My Activities on your mobile device we need to do the following:
+
+1. Install the App on your mobile device.
+2. Open My Activities on your Desktop.
+3. Navigate to the Settings page. Here you should see something like this.
+   ![My Activities Settings Demo](https://i.imgur.com/7CIAWpB.gif) If there is
+   no QR-Code
+   [fix it here](https://rosemitedocs.web.app/docs/troubleshooting#WPF-ActivityLogger-no-qr-code).
+   // Todo: Insure this url works.
+4. Scan the QR-Code with the My Activities app.
+   ![My Activities Settings Demo](https://i.imgur.com/7CIAWpB.gif) Thats it! Now
+   it should look something like this.
+   ![My Activities Settings Demo](https://i.imgur.com/7CIAWpB.gif) You can find
+   the
+   [Download here](https://github.com/SolomonRosemite/WPF-ActivityLogger/releases).
+
+Learn more about WPF-ActivityLogger:
+
+- [GitHub Repo](https://github.com/SolomonRosemite/WPF-ActivityLogger/)

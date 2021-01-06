@@ -1,7 +1,6 @@
 ---
 id: WPF-ActivityLogger-Config
-title: Config
-sidebar_label: Config
+title: 📝Config
 ---
 
 [Source map explorer](https://www.npmjs.com/package/source-map-explorer)
