@@ -8,6 +8,7 @@ title: Installation
 #### Requirements
 
 - .Net Core 3.1 Desktop Runtime
+- Node v12 or higher
 
 #### Installation
 
@@ -23,28 +24,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-- Locate the installation folder:
-
-```
-C:\Users\[Username]\TMRosemite\ActivityLogger
-```
-
-- Start the "ActivityLogger.exe" and create a Shortcut of it and add it to the
-  startup folder.
-
-```
-C:\Users\[Username]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
-```
-
-- (Optional) Add a Shortcut to the desktop or any location of the
-  "MyActivities.exe" which can be found here:
-
-```
-C:\Users\[Username]\TMRosemite\ActivityLogger\MyActivityLogs
-```
-
-Thats it! You can find the
-[Download here](https://github.com/SolomonRosemite/WPF-ActivityLogger/releases).
+Thats it! In the next 10 minutes you should see a few Activities showing up.
 
 ## Mobile Installation
 
@@ -58,8 +38,7 @@ To use My Activities on your mobile device we need to do the following:
    [fix it here](https://rosemitedocs.web.app/docs/troubleshooting#WPF-ActivityLogger-no-qr-code).
    // Todo: Insure this url works.
 4. Scan the QR-Code with the My Activities app.
-   ![My Activities Settings Demo](https://i.imgur.com/7CIAWpB.gif) Thats it! Now
-   it should look something like this.
+5. Thats it! Now it should look something like this.
    ![My Activities Settings Demo](https://i.imgur.com/7CIAWpB.gif) You can find
    the
    [Download here](https://github.com/SolomonRosemite/WPF-ActivityLogger/releases).
