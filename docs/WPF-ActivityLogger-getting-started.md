@@ -1,7 +1,6 @@
 ---
 id: WPF-ActivityLogger-getting-started
-title: Getting Started
-sidebar_label: Getting Started
+title: 📄 Getting Started
 ---
 
 ## Mobile App

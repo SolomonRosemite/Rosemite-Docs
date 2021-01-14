@@ -1,7 +1,7 @@
 const siteConfig = {
   title: "Rosemite Docs",
-  tagline: "Documentation for a few apps I build.",
-  url: "https://rosemitedocs.web.app/", // Todo: Url
+  tagline: "Documentation for a few apps I build💖",
+  url: "https://rosemitedocs.web.app/",
   baseUrl: "/",
   projectName: "Rosemite-Docs",
   organizationName: "solomonrosemite",

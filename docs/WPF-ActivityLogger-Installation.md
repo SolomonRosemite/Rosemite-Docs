@@ -1,6 +1,6 @@
 ---
 id: WPF-ActivityLogger-Installation
-title: Installation
+title: ⚙️ Installation
 ---
 
 ## Desktop Installation
@@ -35,8 +35,7 @@ To use My Activities on your mobile device we need to do the following:
 3. Navigate to the Settings page. Here you should see something like this.
    ![My Activities Settings Demo](https://i.imgur.com/7CIAWpB.gif) If there is
    no QR-Code
-   [fix it here](https://rosemitedocs.web.app/docs/troubleshooting#WPF-ActivityLogger-no-qr-code).
-   // Todo: Insure this url works.
+   [fix it here](https://rosemitedocs.web.app/docs/troubleshooting#wpf-activitylogger-no-qr-code).
 4. Scan the QR-Code with the My Activities app.
 5. Thats it! Now it should look something like this.
    ![My Activities Settings Demo](https://i.imgur.com/7CIAWpB.gif) You can find

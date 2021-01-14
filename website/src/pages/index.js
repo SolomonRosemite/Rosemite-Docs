@@ -10,21 +10,32 @@ import clsx from "clsx";
 
 import styles from "./styles.module.css";
 
+// const features = [
+//   {
+//     title: "Easy to Get Started",
+//     content:
+//       "Here you can find all apps that I build documentation for which are easy to follow.",
+//   },
+//   {
+//     title: "Help & Feedback",
+//     content:
+//       "If you are running into any problems or if something is missing feel free to let me know!",
+//   },
+// ];
+
 const features = [
   {
-    title: "Less to Learn",
-    content:
-      "You don't need to learn and configure many build tools. Instant reloads help you focus on development. When it's time to deploy, your bundles are optimized automatically.",
+    title: "",
+    content: "",
   },
   {
-    title: "Only One Dependency",
+    title: "Easy to Get Started",
     content:
-      "Your app only needs one build dependency. We test Create React App to make sure that all of its underlying pieces work together seamlessly – no complicated version mismatches.",
+      "Here you can find all apps that I build documentation for which are easy to follow.",
   },
   {
-    title: "No Lock-In",
-    content:
-      "Under the hood, we use webpack, Babel, ESLint, and other amazing projects to power your app. If you ever want an advanced configuration, you can ”eject” from Create React App and edit their config files directly.",
+    title: "",
+    content: "",
   },
 ];
 
@@ -35,7 +46,7 @@ function Home() {
   return (
     <Layout
       permalink={"/"}
-      description={"Documentation for a few apps I build."}
+      description={"Documentation for a few apps I build💖"}
     >
       <div className={clsx("hero hero--dark", styles.heroBanner)}>
         <div className="container">
@@ -56,72 +67,27 @@ function Home() {
           </div>
         </div>
       </div>
-      {features && features.length && (
-        <div className={styles.features}>
-          <div className="container">
-            <div className="row">
-              {features.map(({ title, content }, idx) => (
-                <div key={idx} className={clsx("col col--4", styles.feature)}>
-                  <h2>{title}</h2>
-                  <p>{content}</p>
-                </div>
-              ))}
+      <div style={{ marginLeft: "2.5%" }}>
+        {/* <div style={{ marginLeft: "5%" }}> */}
+        {features && features.length && (
+          <div className={styles.features}>
+            <div className="container">
+              <div className="row">
+                {features.map(({ title, content }, idx) => {
+                  return (
+                    <div
+                      key={idx}
+                      className={clsx("col col--4", styles.feature)}
+                    >
+                      <h2>{title}</h2>
+                      <p>{content}</p>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </div>
-        </div>
-      )}
-      <div className={styles.gettingStartedSection}>
-        <div className="container padding-vert--xl text--left">
-          <div className="row">
-            <div className="col col--4 col--offset-1">
-              <h2>Get started in seconds</h2>
-              <p>
-                Whether you’re using React or another library, Create React App
-                lets you <strong>focus on code, not build tools</strong>.
-                <br />
-                <br />
-                To create a project called <i>my-app</i>, run this command:
-              </p>
-              <CodeBlock className="language-sh">
-                npx create-react-app my-app
-              </CodeBlock>
-              <br />
-            </div>
-            <div className="col col--5 col--offset-1">
-              <img
-                className={styles.featureImage}
-                alt="Easy to get started in seconds"
-                src={
-                  "https://camo.githubusercontent.com/29765c4a32f03bd01d44edef1cd674225e3c906b/68747470733a2f2f63646e2e7261776769742e636f6d2f66616365626f6f6b2f6372656174652d72656163742d6170702f323762343261632f73637265656e636173742e737667"
-                }
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div className="container padding-vert--xl text--left">
-          <div className="row">
-            <div className="col col--4 col--offset-1">
-              <img
-                className={styles.featureImage}
-                alt="Easy to update"
-                src={useBaseUrl("img/update.png")}
-              />
-            </div>
-            <div className="col col--5 col--offset-1">
-              <h2>Easy to Maintain</h2>
-              <p>
-                Updating your build tooling is typically a daunting and
-                time-consuming task. When new versions of Create React App are
-                released, you can upgrade using a single command:
-              </p>
-              <CodeBlock className="language-sh">
-                npm install react-scripts@latest
-              </CodeBlock>
-            </div>
-          </div>
-        </div>
+        )}
       </div>
     </Layout>
   );
