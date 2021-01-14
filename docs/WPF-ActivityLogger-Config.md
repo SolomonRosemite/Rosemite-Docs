@@ -125,7 +125,7 @@ This Secret is being used for authenticating with the mobile app.
 Make sure to keep this secret hidden. If you decide to reset your secret do the
 following:
 
-1. Delete the "userSecret" property and make sure to not corrupt the json file.
+1. Delete the "UserSecret" property and make sure to not corrupt the json file.
 2. Open the System Tray and select Restart Firebase Client.
 
 After a few Seconds a new `secret` will be generated. Keep in mind that if you
