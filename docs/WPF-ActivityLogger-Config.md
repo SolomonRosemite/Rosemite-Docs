@@ -120,7 +120,6 @@ to `false`, else the app won't be able to update.
 #### UserSecret
 
 This Secret is being used for authenticating with the mobile app.
-[For more info about the mobile app here.](https://rosemitedocs.web.app/docs/WPF-ActivityLogger-getting-started#mobile-app)
 
 Make sure to keep this secret hidden. If you decide to reset your secret do the
 following:

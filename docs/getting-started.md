@@ -3,23 +3,24 @@ id: getting-started
 title: Welcome 👋
 ---
 
-Welcome to the Documentation. Here you should be able to find all your guides
-and Documentation so without further ado lets start.
+Welcome to the Rosemite-Documentation.
 
-## Lists of Apps
+Here you should be able to find all your guides and documentation for each
+projects of your needs... All apps that have documentation are listed and can be
+accessed here.
 
-All apps that Documentation are listed and can be accessed here.
+## Projects
 
-### WPF-ActivityLogger
+- #### WPF-ActivityLogger
 
-### About
+  📖Keep track of the programs you use.
 
-📖Keep track of the programs you use.
-
-- [The Docs for WPF-ActivityLogger can be found here.](https://rosemitedocs.web.app/docs/WPF-ActivityLogger-getting-started)
+  [The Docs for WPF-ActivityLogger can be found here.](https://rosemitedocs.web.app/docs/WPF-ActivityLogger-Installation)
 
 ## Support ℹ️
 
-Couldn't find what you're looking for Rosemite-Docs:
+Couldn't find what you're looking for?
 
-- [GitHub Repo](https://github.com/SolomonRosemite/Rosemite-Docs)
+- Create a issue here and let me know.
+
+  [GitHub Repository](https://github.com/SolomonRosemite/Rosemite-Docs)

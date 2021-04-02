@@ -10,32 +10,20 @@ import clsx from "clsx";
 
 import styles from "./styles.module.css";
 
-// const features = [
-//   {
-//     title: "Easy to Get Started",
-//     content:
-//       "Here you can find all apps that I build documentation for which are easy to follow.",
-//   },
-//   {
-//     title: "Help & Feedback",
-//     content:
-//       "If you are running into any problems or if something is missing feel free to let me know!",
-//   },
-// ];
-
 const features = [
   {
-    title: "",
-    content: "",
-  },
-  {
-    title: "Easy to Get Started",
+    title: "All in One Place",
     content:
-      "Here you can find all apps that I build documentation for which are easy to follow.",
+      "Every project build by me may have some documentation. Anytime you need to find some documentation it will all be listed and be easily accessible here!",
   },
   {
     title: "",
     content: "",
+  },
+  {
+    title: "Easy to Follow",
+    content:
+      "The documentation is focused to make it easy to understand and follow. Including troubleshooting and support by contacting over Github!",
   },
 ];
 
@@ -46,14 +34,14 @@ function Home() {
   return (
     <Layout
       permalink={"/"}
-      description={"Documentation for a few apps I build💖"}
+      description={"Documentation for projects I have build💖"}
     >
       <div className={clsx("hero hero--dark", styles.heroBanner)}>
         <div className="container">
           <img
             className={clsx(styles.heroBannerLogo, "margin-vert--md")}
             alt="Rosemite Docs logo"
-            src={useBaseUrl("img/logo.svg")}
+            src={useBaseUrl("img/logo.png")}
           />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
@@ -67,7 +55,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div style={{ marginLeft: "2.5%" }}>
+      <div style={{ marginLeft: "2%" }}>
         {/* <div style={{ marginLeft: "5%" }}> */}
         {features && features.length && (
           <div className={styles.features}>

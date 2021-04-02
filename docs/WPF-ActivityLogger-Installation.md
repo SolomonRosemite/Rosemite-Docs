@@ -8,6 +8,7 @@ title: ⚙️ Installation
 #### Requirements
 
 - .Net Core 3.1 Desktop Runtime
+- Python 3.9 or higher
 - Node v12 or higher
 
 #### Installation
@@ -33,13 +34,18 @@ To use My Activities on your mobile device we need to do the following:
 1. Install the App on your mobile device.
 2. Open My Activities on your Desktop.
 3. Navigate to the Settings page. Here you should see something like this.
-   ![My Activities Settings Demo](https://i.imgur.com/7CIAWpB.gif) If there is
-   no QR-Code
+
+   ![My Activities Settings Demo](https://i.imgur.com/60MbEsR.gif)
+
+   If there is no QR-Code
    [fix it here](https://rosemitedocs.web.app/docs/troubleshooting#wpf-activitylogger-no-qr-code).
+
 4. Scan the QR-Code with the My Activities app.
 5. Thats it! Now it should look something like this.
-   ![My Activities Settings Demo](https://i.imgur.com/7CIAWpB.gif) You can find
-   the
+
+   <img src="https://i.imgur.com/Na6hivO.gif" data-canonical-src="https://i.imgur.com/Na6hivO.gif" width="400" />
+
+   You can find the
    [Download here](https://github.com/SolomonRosemite/WPF-ActivityLogger/releases).
 
 Learn more about WPF-ActivityLogger:

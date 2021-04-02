@@ -1,6 +1,6 @@
 const siteConfig = {
   title: "Rosemite Docs",
-  tagline: "Documentation for a few apps I build💖",
+  tagline: "Documentation for projects I have build💖",
   url: "https://rosemitedocs.web.app/",
   baseUrl: "/",
   projectName: "Rosemite-Docs",
@@ -29,7 +29,7 @@ const siteConfig = {
       title: "Rosemite Docs",
       logo: {
         alt: "Rosemite Docs Logo",
-        src: "img/logo.svg",
+        src: "img/logo.png",
       },
       items: [
         { to: "docs/getting-started", label: "Docs", position: "right" },

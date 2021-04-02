@@ -2,7 +2,6 @@
   "docs": {
     "Getting Started 👋": ["getting-started"],
     "WPF-ActivityLogger 📖": [
-      "WPF-ActivityLogger-getting-started",
       "WPF-ActivityLogger-Installation",
       "WPF-ActivityLogger-Config"
     ],
